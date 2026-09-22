@@ -1,19 +1,25 @@
 <!DOCTYPE HTML>
 <html lang="fr">
-<style>
-			.spotlights > section > .image {
-				background-size: contain !important;
-				background-repeat: no-repeat !important;
-			}
-		</style>
 	<head>
 		<title>Coralie Wagner - Portfolio Data Analyst</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		<!-- Correctif pour afficher les images en entier proprement -->
+		<style>
+			.spotlights > section > .image {
+				background-size: contain !important;
+				background-position: center center !important;
+				background-repeat: no-repeat !important;
+				background-color: rgba(0, 0, 0, 0.2) !important;
+			}
+		</style>
 	</head>
-	<body class="is-preload">
+	
+	<!-- Suppression de l'animation bloquante -->
+	<body>
 
 		<!-- Sidebar -->
 			<section id="sidebar">
@@ -33,7 +39,7 @@
 			<div id="wrapper">
 
 				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
+					<section id="intro" class="wrapper style1 fullscreen">
 						<div class="inner">
 							<h1>Coralie Wagner</h1>
 							<p><strong>Portfolio Data Analyst</strong></p>
@@ -86,45 +92,50 @@
 					</section>
 
 				<!-- Two -->
-<section id="two" class="wrapper style3 fade-up">
-    <div class="inner">
-        <h2>Mes compétences</h2>
-        <p>Voici les principaux outils et technologies que j'utilise pour transformer et faire parler les données :</p>
-        <div class="features">
-            <section>
-                <span class="icon solid major fa-code"></span>
-                <h3>Python</h3>
-                <p>Nettoyage, manipulation (Pandas, NumPy) et création d'API (Flask, Web Scraping).</p>
-            </section>
-            <section>
-                <span class="icon solid major fa-database"></span>
-                <h3>SQL & Bases de données</h3>
-                <p>Requêtes complexes, optimisation (Google BigQuery, SQLite).</p>
-            </section>
-            <section>
-                <span class="icon solid major fa-chart-bar"></span>
-                <h3>Data Visualisation</h3>
-                <p>Création de dashboards interactifs et aide à la décision (Power BI).</p>
-            </section>
-            <section>
-                <span class="icon solid major fa-cogs"></span>
-                <h3>Data Engineering</h3>
-                <p>Création de pipelines ETL, et notions sur des outils modernes (dbt, Google Cloud Functions).</p>
-            </section>
-        </div>
-    </div>
-</section>
-					<!-- Three -->
-<section id="three" class="wrapper style1 fade-up">
-    <div class="inner">
-        <h2>Contact</h2>
-        <p>Je suis disponible pour un poste de Data Analyst. Vous pouvez consulter mes projets en détail sur GitHub ou me contacter via LinkedIn en cliquant sur les liens ci-dessous :</p>
-        <ul class="icons">
-            <li><a href="https://github.com/coco881-moon" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-            <li><a href="https://www.linkedin.com/in/coralie-wagner-620782437/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-        </ul>
-    </div>
-</section>
+					<section id="two" class="wrapper style3">
+						<div class="inner">
+							<h2>Mes compétences</h2>
+							<p>Voici les principaux outils et technologies que j'utilise pour transformer et faire parler les données :</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Python</h3>
+									<p>Nettoyage, manipulation (Pandas, NumPy) et création d'API (Flask, Web Scraping).</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-database"></span>
+									<h3>SQL & Bases de données</h3>
+									<p>Requêtes complexes, optimisation (Google BigQuery, SQLite).</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-chart-bar"></span>
+									<h3>Data Visualisation</h3>
+									<p>Création de dashboards interactifs et aide à la décision (Power BI).</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-cogs"></span>
+									<h3>Data Engineering</h3>
+									<p>Création de pipelines ETL, et notions sur des outils modernes (dbt, Google Cloud Functions).</p>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style1">
+						<div class="inner">
+							<h2>Contact</h2>
+							<p>Je suis disponible pour un poste de Data Analyst. Vous pouvez consulter mes projets en détail sur GitHub ou me contacter via LinkedIn en cliquant sur les liens ci-dessous :</p>
+							<ul class="icons">
+								<li><a href="https://github.com/coco881-moon" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/coralie-wagner-620782437/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
@@ -143,4 +154,3 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
-</html>
